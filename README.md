@@ -1,6 +1,6 @@
-Open the file in VScode EXPLORER
-
 For Mac(have installed python3 , pip3 and virtualenv):
+
+Open the file in VScode EXPLORER
 
 run (python3 -m venv env) to create a virtual env
 run (source ./env/bin/activate)
