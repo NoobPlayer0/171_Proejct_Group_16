@@ -3,11 +3,16 @@ For Mac(have installed python3 , pip3 and virtualenv):
 Open the file in VScode EXPLORER
 
 run (python3 -m venv env) to create a virtual env
+
 run (source ./env/bin/activate)
+
 install streamlit: pip3 install streamlit or pip install streamlit
+
 run (streamlit run alcoholPredict.py)
+
 if error: No module named 'sklearn', run (pip install -U scikit-learn scipy matplotlib) to install
-finally, run (streamlit run app.py)
+
+run (streamlit run app.py)
 
 to deactivate: deactivate
 
@@ -24,8 +29,12 @@ Then press the green start button, choose open with Terminal
 On the terminal side:
 
 run (pip install streamlit), wait til it successfully installed.
+
 use (cd) command go the directory where you saved the folder that contains alcoholPredict.py, app.py, README.md, saved_steps.pkl files
+
 run (streamlit run app.py) to luanch the web app
+
 if error: No module named 'sklearn' occurs, run (pip install -U scikit-learn scipy matplotlib) to install
+
 then run (streamlit run app.py) to luanch the web app again
 
